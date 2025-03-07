@@ -1,0 +1,31 @@
+# Ignore Python virtual environments
+.venv/
+venv/
+.env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and temp files
+logs/
+*.log
+*.out
+*.tmp
+
+# Ignore datasets and saved models (if they are too large)
+data/
+models/
+*.h5
+*.pt
+*.pkl
+*.onnx
+*.ckpt
+
+# Ignore VS Code settings (if using VS Code)
+.vscode/
