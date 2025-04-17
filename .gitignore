@@ -1,6 +1,7 @@
 # Ignore Python virtual environments
 .venv/
 venv/
+.env
 .env/
 
 # Ignore Python cache files
@@ -29,3 +30,6 @@ models/
 
 # Ignore VS Code settings (if using VS Code)
 .vscode/
+
+# Ignore JSON files
+*.json

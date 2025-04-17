@@ -4,15 +4,14 @@ import json
 from typing import Dict, List, Any, Optional
 
 class FlightAPI:
-    """FlightAPI.io integration for searching one-way flights"""
     
-    def __init__(self, api_key: str = "67caaeddb4cc82b4be3d1b8d", base_url: str = "https://api.flightapi.io"):
+    def __init__(self, api_key: str, base_url: str):
         """
         Initialize the FlightAPI client
         
         Args:
             api_key: Your FlightAPI.io API key
-            base_url: The base URL for the API (default: https://api.flightapi.io)
+            base_url: The base URL for the API 
         """
         self.api_key = api_key
         self.base_url = base_url

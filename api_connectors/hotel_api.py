@@ -4,15 +4,14 @@ import json
 from typing import Dict, List, Any, Optional
 
 class HotelAPI:
-    """Makcorps Free Hotel API integration"""
     
-    def __init__(self, jwt_token: str, base_url: str = "https://api.makcorps.com"):
+    def __init__(self, jwt_token: str, base_url: str ):
         """
         Initialize the HotelAPI client
         
         Args:
             jwt_token: JWT authorization token for the API
-            base_url: The base URL for the API (default: https://api.makcorps.com)
+            base_url: The base URL for the API
         """
         self.jwt_token = jwt_token
         self.base_url = base_url
